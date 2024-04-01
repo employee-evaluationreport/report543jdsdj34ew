@@ -1,0 +1,722 @@
+body {
+    padding-top: 40%;
+    background: #ff21218f;
+}
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgb(255 255 255);
+}
+.lapsa{
+    background: rgb(255, 255, 255);
+}
+.mojami{
+    background: rgb(69, 219, 0);
+    background-image: linear-gradient(top,rgb(203, 178, 231),rgb(173, 188, 236));
+}
+.zlogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 400px;
+    padding: 100px 40px;
+    box-sizing: border-box;
+    background: rgb(255 255 255);
+}
+.alogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 440px;
+    padding: 110px 50px;
+    box-sizing: border-box;
+    background: rgb(255 255 255);
+    border-radius: 8px;
+}
+.micrologin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 350px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgb(255 255 255);
+}
+.milogin {
+    background: rgb(224, 210, 228);
+}
+.prologin {
+    background: rgb(240, 240, 240);
+}
+.user {
+    width: 318px;
+    height: 62px;
+    overflow: hidden;
+    top: calc(-70px/3);
+    left: calc(22% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.Iblemail, .lblpass {
+    color: rgb(0 0 0);
+}
+.mainIblemail1 {
+    position: absolute;
+    top: 3%;
+    left:1%;
+    width: 200px;
+    height: 160px;
+}
+.mainIblemailm {
+    position: absolute;
+    top: 12%;
+    left: 4%;
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+    width: 95%;
+    font-family:monospace;
+}
+.mainIblemail {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: rgb(0, 0, 0);
+    font-size: 160%;
+    width: 90%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.txtemail, .txtpass, .btnsubmit {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.txtemail, .txtpass {
+    border: 2px solid rgb(148 148 148);
+    border-radius: 5px;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 17px;
+}
+::placeholder {
+    color: rgb(148 148 148);
+}
+.btnsubmit {
+    width: 280px;
+    height: 44px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(51 64 126);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+} 
+.login2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    outline-style:solid;
+    outline-color: darkgray;
+}
+.user2 {
+    width: 318px;
+    height: 62px;
+    overflow: hidden;
+    top: calc(-70px/3);
+    left: calc(19% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.Artz {
+    color: rgb(18, 0, 182);
+    font-size: 25px;
+    text-align:right;
+    font-family:sans-serif;
+}
+.Artz2 {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.bner {
+    width: 75%;
+    height: 110%;
+}
+.btnoutlook {
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    width:265px;
+    height: 48px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(133, 186, 255);
+    
+} 
+.aner {
+    width: 30%;
+    height: 110%;
+}
+.btnaol {
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    width:265px;
+    height: 48px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+} 
+.pner {
+    position:absolute;
+    top: -15%;
+    left: 17%;
+    width: 60%;
+    height: 140%;
+}
+.btnproton {
+    position: absolute;
+    top:55%;
+    left: 12%;
+    width:265px;
+    height: 48px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(138,43,255);
+} 
+.yner {
+    position: absolute;
+    top: -15%;
+    left: 17%;
+    width: 65%;
+    height: 140%;
+}
+.btnyahoo {
+    position: absolute;
+    top: 48%;
+    left: 12%;
+    width:265px;
+    height: 48px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(98, 0, 255);
+} 
+.zner {
+    width: 37%;
+    height: 70%;
+}
+.btnzoho {
+    position: absolute;
+    top:70%;
+    left: 12%;
+    width:265px;
+    height: 48px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+} 
+.loginla {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgb(181, 181, 228),rgb(231, 187, 224));
+    border-radius: 5px;
+}
+.loginx {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    padding: 110px 50px;
+    box-sizing: border-box;
+    background: rgb(255 255 255);
+    border-radius: 8px;
+}
+.oner {
+    width: 60%;
+    height: 60%;
+}
+.btnother {
+    position: absolute;
+    top:85%;
+    left: 12%;
+    width:265px;
+    height: 48px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(255, 136, 0);
+}
+.btnosubmit {
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(3, 100, 184);
+    cursor: pointer;
+    border: none;
+    margin-left: 67%;
+} 
+.Ouser {
+    width: 150px;
+    height: 55px;
+    overflow: hidden;
+    top: calc(25px/1);
+    left: calc(21% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.protonuser {
+    width: 170px;
+    height: 95px;
+    overflow: hidden;
+    top: calc(0px/1);
+    left: calc(9% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.txtoemail, .txtopass {
+    border: 0;
+    border-bottom:  1px solid rgb(148 148 148);
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom:20px;
+    
+}
+.txtproemail, .txtpropass {
+    border:   1px solid rgb(148 148 148);
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom:20px;
+    border-radius: 8px;
+}
+.Iblopass {
+    color: rgb(49, 49, 49);
+    font-size: 20px;
+}
+.Ibl1propass {
+    color: rgb(0, 0, 0);
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ibl2propass {
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Iblodown1 {
+    color: rgb(228, 0, 0);
+    font-size: 12px;
+}
+.Iblodown {
+    color: rgb(0, 53, 228);
+    font-size: 13px;
+}
+.aoluser {
+    width: 100px;
+    height: 82px;
+    overflow: hidden;
+    top: calc(-10px/3);
+    left: calc(36% - 5px);
+    position: absolute;
+    margin-left: 0px;
+}
+.aoltxtemail, .aoltxtpass {
+    border: 0;
+    border-bottom:  1px solid rgb(148 148 148);
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom:10px;
+}
+.yatxtemail, .yatxtpass {
+    border: 0;
+    border-bottom:  1px solid rgb(148 148 148);
+    outline: none;
+    height: 40px;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom:10px;
+}
+.aolIblpass {
+    text-align: end;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:35%;
+}
+.v2{
+    color: rgb(234, 40, 40);
+}
+.v12{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.aolbtnsubmit {
+    width:278px;
+    height: 44px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(40, 168, 234);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+} 
+.yabtnsubmit {
+    width:278px;
+    height: 44px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(40, 168, 234);
+    cursor: pointer;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+} 
+.yauser {
+    width: 230px;
+    height: 102px;
+    overflow: hidden;
+    top: calc(30px/3);
+    left: calc(31% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.yauser1 {
+    width: 230px;
+    height: 102px;
+    overflow: hidden;
+    top: calc(30px/3);
+    left: calc(31% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.yhIblpass {
+    text-align: end;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:35%;
+}
+.yh2Iblpass {
+    text-align: end;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:15%;
+}
+.ya1hbody{
+    color:rgb(156, 57, 57);
+}
+.yhmola{
+    color: rgb(40, 168, 234);
+}
+.yalogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 520px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.offlogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 440px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    border-radius: 11px;
+}
+.offbtnsubmit {
+    width:278px;
+    height: 44px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(138,43,255);
+    cursor: pointer;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+} 
+.offIblemail, .offlblpass {
+    color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.zohobtnsubmit {
+    width:278px;
+    height: 44px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(41, 133, 253);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+} 
+.outuser2 {
+    width: 250px;
+    height: 76px;
+    overflow: hidden;
+    top: calc(-10px/3);
+    left: calc(28% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.aoluser2 {
+    width: 200px;
+    height: 76px;
+    overflow: hidden;
+    top: calc(-10px/3);
+    left: calc(35% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.yahoouser2 {
+    width: 200px;
+    height: 106px;
+    overflow: hidden;
+    top: calc(-60px/3);
+    left: calc(35% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.zohouser {
+    width: 100px;
+    height: 42px;
+    overflow: hidden;
+    top: calc(110px/3);
+    left: calc(12% - 5px);
+    position: absolute;
+    margin-left: 0px;
+}
+.zoho1Iblpass {
+    text-align: end;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0%;
+}
+.zoho2Iblpass {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0%;
+}
+.zohotxtemail, .zohotxtpass {
+    border:  1px solid rgb(177, 177, 177);
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom:10px;
+    border-radius: 5px;
+    background-color: rgb(231, 230, 230);
+}
+.contentwrapper{
+    position: absolute;
+    top: 5%;
+    left: 38%;
+    width: 400px;
+    height: 45px;
+    background-color: rgb(192, 62, 62);
+    border-radius: 5px;
+    border: none;
+    
+}
+.Iblcontentwrapper{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 14px;
+    color: #fff;
+}
+.llner {
+    margin-top: 2.5%;
+    margin-left: 2%;
+}
+@media only screen and (max-width: 600px) {
+    .contentwrapper{
+        position: absolute;
+        top: 5%;
+        left: 11%;
+        transform: translate(-5%, -38%);
+        width: 330px;
+        height: 45px;
+        background-color: rgb(192, 62, 62);
+        border-radius: 5px;
+        border: none;
+        
+    }
+    .Iblcontentwrapper{
+        position: absolute;
+        top: 30%;
+        left: 13%;
+        font-size: 14px;
+        color: #fff;
+    }
+    .llner {
+        margin-top: 2.5%;
+        margin-left: 2%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .contentwrapper{
+        position: absolute;
+        top: 5%;
+        left: 38%;
+        width: 400px;
+        height: 45px;
+        background-color: rgb(192, 62, 62);
+        border-radius: 5px;
+        border: none;
+        
+    }
+    .Iblcontentwrapper{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        font-size: 14px;
+        color: #fff;
+    }
+    .llner {
+        margin-top: 2.5%;
+        margin-left: 2%;
+    }
+
+}
+@media only screen and (min-width: 768px) {
+    .contentwrapper{
+        position: absolute;
+        top: 15%;
+        left: 30%;
+        transform: translate(-5%, -38%);
+        width: 400px;
+        height: 45px;
+        background-color: rgb(192, 62, 62);
+        border-radius: 5px;
+        border: none;
+        
+    }
+    .Iblcontentwrapper{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        font-size: 14px;
+        color: #fff;
+    }
+    .llner {
+        margin-top: 2.5%;
+        margin-left: 2%;
+    }
+
+}
+@media only screen and (min-width: 992px) {
+    .contentwrapper{
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        transform: translate(-5%, -38%);
+        width: 400px;
+        height: 45px;
+        background-color: rgb(192, 62, 62);
+        border-radius: 5px;
+        border: none;
+        
+    }
+    .Iblcontentwrapper{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        font-size: 14px;
+        color: #fff;
+    }
+    .llner {
+        margin-top: 2.5%;
+        margin-left: 2%;
+    }
+
+}
+@media only screen and (min-width: 1200px) {
+    .contentwrapper{
+        position: absolute;
+        top: 5%;
+        left: 38%;
+        width: 400px;
+        height: 45px;
+        background-color: rgb(192, 62, 62);
+        border-radius: 5px;
+        border: none;
+        
+    }
+    .Iblcontentwrapper{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        font-size: 14px;
+        color: #fff;
+    }
+    .llner {
+        margin-top: 2.5%;
+        margin-left: 2%;
+    }
+
+}

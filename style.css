@@ -1,0 +1,761 @@
+loginx
+body {
+    padding-top: 40%;
+    background: #ff21218f;
+}
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgb(255 255 255);
+}
+.lapsa{
+    background: rgb(255, 255, 255);
+}
+.hublapsa{
+    background: rgb(233, 252, 255);
+}
+.hublogin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgb(233, 252, 255);
+}
+.mojami{
+    background: rgb(69, 219, 0);
+    background-image: linear-gradient(top,rgb(203, 178, 231),rgb(173, 188, 236));
+}
+.zlogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 415px;
+    padding: 100px 40px;
+    box-sizing: border-box;
+    background: rgb(255 255 255);
+    border-radius: 2px;
+    outline: 1px solid rgb(105, 105, 106);
+}
+.alogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 440px;
+    padding: 110px 50px;
+    box-sizing: border-box;
+    background: rgb(255 255 255);
+    border-radius: 8px;
+}
+.micrologin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 350px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgb(255 255 255);
+}
+.milogin {
+    background: rgb(224, 210, 228);
+}
+.prologin {
+    background: rgb(240, 240, 240);
+}
+.blackwebmaillogin {
+    background: rgb(255, 255, 255);
+    
+}
+.user {
+    width: 318px;
+    height: 62px;
+    overflow: hidden;
+    top: calc(-70px/3);
+    left: calc(22% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.huduser {
+    width: 365px;
+    height: 170px;
+    overflow: hidden;
+    top: calc(-70px/3);
+    left: calc(17% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.Iblemail, .lblpass {
+    color: rgb(0 0 0);
+}
+.Iblhubemail, .lblhubpass {
+    color: rgb(0 0 0);
+    font-size: 80%;
+}
+.mainIblemail1 {
+    position: absolute;
+    top: -1%;
+    left:1%;
+    width: 400px;
+    height: 200px;
+}
+.mainIblemailm {
+    position: absolute;
+    top: 12%;
+    left: 4%;
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+    width: 95%;
+    font-family:monospace;
+}
+.mainIblemail {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: rgb(0, 0, 0);
+    font-size: 160%;
+    width: 90%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.txtemail, .txtpass, .btnsubmit {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.txtemail, .txtpass {
+    border: 2px solid rgb(131, 131, 131);
+    border-radius: 5px;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 17px;
+}
+.hubtxtemail, .hubtxtpass {
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom:2px solid rgb(215, 215, 215);
+    border-radius: 5px;
+    outline: none;
+    height: 13%;
+    width: 100%;
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 3%;
+}
+::placeholder {
+    color: rgb(148 148 148);
+}
+.btnsubmit {
+    width: 280px;
+    height: 44px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(51 64 126);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+} 
+.hudbtnsubmit {
+    height: 15%;
+    width: 103%;
+    font-size: 13px;
+    color: #fff;
+    background-color: rgb(71, 139, 207);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+} 
+.roundbtnsubmit {
+    width: 277px;
+    height: 44px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(29, 176, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+} 
+.login2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    outline-style:solid;
+    outline-color: darkgray;
+}
+.user2 {
+    width: 318px;
+    height: 62px;
+    overflow: hidden;
+    top: calc(-70px/3);
+    left: calc(19% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.Artz {
+    color: rgb(18, 0, 182);
+    font-size: 25px;
+    text-align:right;
+    font-family:sans-serif;
+}
+.Artz2 {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.bner {
+    width: 50%;
+    height: 165%;
+    position: absolute;
+    top: -20%;
+    left: 22%;
+}
+.btnoutlook {
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    width:265px;
+    height: 48px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(133, 186, 255);
+    
+} 
+.aner {
+    width: 70%;
+    height: 105%;
+}
+.btnaol {
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    width:265px;
+    height: 48px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #0860C7;
+} 
+.pner {
+    position:absolute;
+    top: -40%;
+    left: 30%;
+    width: 45%;
+    height: 185%;
+}
+.btnproton {
+    position: absolute;
+    top:55%;
+    left: 12%;
+    width:265px;
+    height: 48px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+} 
+.yner {
+    position: absolute;
+    top: -15%;
+    left: 17%;
+    width: 65%;
+    height: 140%;
+}
+.btnyahoo {
+    position: absolute;
+    top: 48%;
+    left: 12%;
+    width:265px;
+    height: 48px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(98, 0, 255);
+} 
+.zner {
+    width: 25%;
+    height: 85%;
+}
+.btnzoho {
+    position: absolute;
+    top:70%;
+    left: 12%;
+    width:265px;
+    height: 48px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(133, 186, 255);
+} 
+.loginla {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgb(181, 181, 228),rgb(231, 187, 224));
+    border-radius: 5px;
+}
+.loginx {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    padding: 110px 50px;
+    box-sizing: border-box;
+    background: rgb(255 255 255);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+}
+.oner {
+    width: 60%;
+    height: 60%;
+}
+.btnother {
+    position: absolute;
+    top:85%;
+    left: 12%;
+    width:265px;
+    height: 48px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(255, 136, 0);
+}
+.btnosubmit {
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(3, 100, 184);
+    cursor: pointer;
+    border: none;
+    margin-left: 67%;
+} 
+.Ouser {
+    width: 30%;
+    height: 25%;
+    overflow: hidden;
+    top: calc(-10%/1);
+    left: calc(50% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.protonuser {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    top: calc(67%/1);
+    left: calc(46% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.txtoemail, .txtopass {
+    border: 1px solid rgb(148 148 148);
+    border-radius: 3px;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom:10px;
+    
+}
+.txtproemail, .txtpropass {
+    border:   1px solid rgb(206, 206, 206);
+    outline: none;
+    height: 17%;
+    color: #000000;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom:20px;
+    background-color: rgb(241, 241, 241);
+}
+.Iblopass {
+    color: rgb(49, 49, 49);
+    font-size: 20px;
+}
+.Ibl1propass {
+    color: rgb(0, 0, 0);
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ibl2propass {
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Iblodown {
+    color: rgb(102, 102, 102);
+    font-size: 13px;
+    text-align: end;
+    margin:26%;
+}
+.aoluser {
+    width: 100px;
+    height: 82px;
+    overflow: hidden;
+    top: calc(-10px/3);
+    left: calc(36% - 5px);
+    position: absolute;
+    margin-left: 0px;
+}
+.aoltxtemail, .aoltxtpass {
+    border: 0;
+    border-bottom:  1px solid rgb(148 148 148);
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom:10px;
+}
+.yatxtemail, .yatxtpass {
+    border: 0;
+    border-bottom:  1px solid rgb(148 148 148);
+    outline: none;
+    height: 40px;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom:10px;
+}
+.aolIblpass {
+    text-align: end;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:35%;
+}
+.v2{
+    color: rgb(40, 168, 234);
+}
+.v12{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.aolbtnsubmit {
+    width:278px;
+    height: 44px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(40, 168, 234);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+} 
+.yabtnsubmit {
+    width:278px;
+    height: 44px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(40, 168, 234);
+    cursor: pointer;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+} 
+.yauser {
+    width: 230px;
+    height: 102px;
+    overflow: hidden;
+    top: calc(30px/3);
+    left: calc(31% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.yauser1 {
+    width: 230px;
+    height: 102px;
+    overflow: hidden;
+    top: calc(30px/3);
+    left: calc(31% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.yhIblpass {
+    text-align: end;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:35%;
+}
+.yh2Iblpass {
+    text-align: end;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:15%;
+}
+.ya1hbody{
+    color:rgb(156, 57, 57);
+}
+.yhmola{
+    color: rgb(40, 168, 234);
+}
+.yalogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 520px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.offlogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 250px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    border-radius: 11px;
+}
+.offbtnsubmit {
+    width:25%;
+    height: 16%;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.offIblemail, .offlblpass {
+    color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.zohobtnsubmit {
+    width:278px;
+    height: 37px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(36, 91, 164);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+} 
+.outuser2 {
+    width: 250px;
+    height: 76px;
+    overflow: hidden;
+    top: calc(-10px/3);
+    left: calc(28% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.aoluser2 {
+    width: 200px;
+    height: 76px;
+    overflow: hidden;
+    top: calc(-10px/3);
+    left: calc(35% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.yahoouser2 {
+    width: 200px;
+    height: 106px;
+    overflow: hidden;
+    top: calc(-60px/3);
+    left: calc(35% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.zohouser {
+    width: 70%;
+    height: 50%;
+    overflow: hidden;
+    top: calc(10%/3);
+    left: calc(18% - 5px);
+    position: absolute;
+    margin-left: 0px;
+}
+.zoho1Iblpass {
+    text-align: end;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0%;
+}
+.zoho2Iblpass {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0%;
+}
+.zohotxtemail, .zohotxtpass {
+    border:  1px solid rgb(177, 177, 177);
+    outline: none;
+    height: 35px;
+    color: #000000;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom:10px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+.didlogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 360px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    border-radius: 1px;
+}
+.diduser {
+    width: 110px;
+    height: 27px;
+    overflow: hidden;
+    top: calc(10%/1);
+    left: calc(19% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.didIblemail1{
+    color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.didIblemail2{
+    color: #0067b8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+.didproemail, .didpropass {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+    height: 10%;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom:20px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+}
+.didbtnsubmit {
+    width:27%;
+    height: 10%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0067b8;;
+    cursor: pointer;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 64%;
+    top: 85%;
+} 
+.aollogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 550px;
+    padding: 100px 40px;
+    box-sizing: border-box;
+    background: rgb(255 255 255);
+    border-radius: 2px;
+    outline: none;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+}
+.aoluser {
+    width: 45%;
+    height: 28%;
+    overflow: hidden;
+    top: calc(-7%/3);
+    left: calc(30% - 5px);
+    position: absolute;
+    margin-left: 0px;
+}
+.aolIblemail{
+    color: #26282a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    position: absolute;
+    top: calc(70%/3);
+    left: calc(40% - 5px);
+}
+.aoltxtemail, .aoltxtpass {
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    outline: none;
+    height: 35px;
+    color: #000000;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom:10px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+.aolbtnsubmit {
+    width:278px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #39f;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+} 
+.pic1{
+    position: absolute;
+    top: calc(-1%/3);
+    left: calc(-3% - 2px);
+    width:103%;
+    height: 100%;
+}
+.pic2{
+    position: absolute;
+    top: calc(-1%/3);
+    left: calc(45% - 2px);
+    width:50%;
+    height: 100%;
+}

