@@ -1,3 +1,4 @@
+
 body {
     padding-top: 40%;
     background: #ff21218f;
@@ -16,6 +17,20 @@ body {
 .lapsa{
     background: rgb(255, 255, 255);
 }
+.hublapsa{
+    background: rgb(233, 252, 255);
+}
+.hublogin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgb(233, 252, 255);
+}
 .mojami{
     background: rgb(69, 219, 0);
     background-image: linear-gradient(top,rgb(203, 178, 231),rgb(173, 188, 236));
@@ -26,10 +41,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 350px;
-    height: 400px;
+    height: 415px;
     padding: 100px 40px;
     box-sizing: border-box;
     background: rgb(255 255 255);
+    border-radius: 2px;
+    outline: 1px solid rgb(105, 105, 106);
 }
 .alogin {
     position: absolute;
@@ -60,6 +77,10 @@ body {
 .prologin {
     background: rgb(240, 240, 240);
 }
+.blackwebmaillogin {
+    background: rgb(255, 255, 255);
+    
+}
 .user {
     width: 318px;
     height: 62px;
@@ -69,15 +90,28 @@ body {
     position: absolute;
     margin-left: 0px;
 }
+.huduser {
+    width: 365px;
+    height: 170px;
+    overflow: hidden;
+    top: calc(-70px/3);
+    left: calc(17% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
 .Iblemail, .lblpass {
     color: rgb(0 0 0);
 }
+.Iblhubemail, .lblhubpass {
+    color: rgb(0 0 0);
+    font-size: 80%;
+}
 .mainIblemail1 {
     position: absolute;
-    top: 3%;
+    top: -1%;
     left:1%;
-    width: 200px;
-    height: 160px;
+    width: 400px;
+    height: 200px;
 }
 .mainIblemailm {
     position: absolute;
@@ -103,12 +137,23 @@ body {
 }
 
 .txtemail, .txtpass {
-    border: 2px solid rgb(148 148 148);
+    border: 2px solid rgb(131, 131, 131);
     border-radius: 5px;
     outline: none;
     height: 40px;
     color: #000000;
     font-size: 17px;
+}
+.hubtxtemail, .hubtxtpass {
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom:2px solid rgb(215, 215, 215);
+    border-radius: 5px;
+    outline: none;
+    height: 13%;
+    width: 100%;
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 3%;
 }
 ::placeholder {
     color: rgb(148 148 148);
@@ -119,6 +164,26 @@ body {
     font-size: 16px;
     color: #fff;
     background-color: rgb(51 64 126);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+} 
+.hudbtnsubmit {
+    height: 15%;
+    width: 103%;
+    font-size: 13px;
+    color: #fff;
+    background-color: rgb(71, 139, 207);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+} 
+.roundbtnsubmit {
+    width: 277px;
+    height: 44px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(29, 176, 255);
     cursor: pointer;
     border-radius: 5px;
     border: none;
@@ -157,8 +222,11 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .bner {
-    width: 75%;
-    height: 110%;
+    width: 50%;
+    height: 165%;
+    position: absolute;
+    top: -20%;
+    left: 22%;
 }
 .btnoutlook {
     position: absolute;
@@ -175,8 +243,8 @@ body {
     
 } 
 .aner {
-    width: 30%;
-    height: 110%;
+    width: 70%;
+    height: 105%;
 }
 .btnaol {
     position: absolute;
@@ -189,14 +257,14 @@ body {
     background-color: rgb(255, 255, 255);
     cursor: pointer;
     border-radius: 5px;
-    border-color: rgb(0, 0, 0);
+    border-color: #0860C7;
 } 
 .pner {
     position:absolute;
-    top: -15%;
-    left: 17%;
-    width: 60%;
-    height: 140%;
+    top: -40%;
+    left: 30%;
+    width: 45%;
+    height: 185%;
 }
 .btnproton {
     position: absolute;
@@ -209,7 +277,7 @@ body {
     background-color: rgb(255, 255, 255);
     cursor: pointer;
     border-radius: 5px;
-    border-color: rgb(138,43,255);
+    border-color: rgb(0, 0, 0);
 } 
 .yner {
     position: absolute;
@@ -232,8 +300,8 @@ body {
     border-color: rgb(98, 0, 255);
 } 
 .zner {
-    width: 37%;
-    height: 70%;
+    width: 25%;
+    height: 85%;
 }
 .btnzoho {
     position: absolute;
@@ -246,7 +314,7 @@ body {
     background-color: rgb(255, 255, 255);
     cursor: pointer;
     border-radius: 5px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(133, 186, 255);
 } 
 .loginla {
     position: absolute;
@@ -271,6 +339,7 @@ body {
     box-sizing: border-box;
     background: rgb(255 255 255);
     border-radius: 8px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
 }
 .oner {
     width: 60%;
@@ -300,43 +369,43 @@ body {
     margin-left: 67%;
 } 
 .Ouser {
-    width: 150px;
-    height: 55px;
+    width: 30%;
+    height: 25%;
     overflow: hidden;
-    top: calc(25px/1);
-    left: calc(21% - 50px);
+    top: calc(-10%/1);
+    left: calc(50% - 50px);
     position: absolute;
     margin-left: 0px;
 }
 .protonuser {
-    width: 170px;
-    height: 95px;
+    width: 200px;
+    height: 150px;
     overflow: hidden;
-    top: calc(0px/1);
-    left: calc(9% - 50px);
+    top: calc(67%/1);
+    left: calc(46% - 50px);
     position: absolute;
     margin-left: 0px;
 }
 .txtoemail, .txtopass {
-    border: 0;
-    border-bottom:  1px solid rgb(148 148 148);
+    border: 1px solid rgb(148 148 148);
+    border-radius: 3px;
     outline: none;
     height: 40px;
     color: #000000;
     font-size: 17px;
     width: 100%;
-    margin-bottom:20px;
+    margin-bottom:10px;
     
 }
 .txtproemail, .txtpropass {
-    border:   1px solid rgb(148 148 148);
+    border:   1px solid rgb(206, 206, 206);
     outline: none;
-    height: 40px;
+    height: 17%;
     color: #000000;
     font-size: 17px;
     width: 100%;
     margin-bottom:20px;
-    border-radius: 8px;
+    background-color: rgb(241, 241, 241);
 }
 .Iblopass {
     color: rgb(49, 49, 49);
@@ -352,13 +421,11 @@ body {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.Iblodown1 {
-    color: rgb(228, 0, 0);
-    font-size: 12px;
-}
 .Iblodown {
-    color: rgb(0, 53, 228);
+    color: rgb(102, 102, 102);
     font-size: 13px;
+    text-align: end;
+    margin:26%;
 }
 .aoluser {
     width: 100px;
@@ -396,7 +463,7 @@ body {
     margin:35%;
 }
 .v2{
-    color: rgb(234, 40, 40);
+    color: rgb(40, 168, 234);
 }
 .v12{
     color: rgb(0, 0, 0);
@@ -480,22 +547,21 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 350px;
-    height: 440px;
+    height: 250px;
     padding: 30px 40px;
     box-sizing: border-box;
     background: rgb(255, 255, 255);
     border-radius: 11px;
 }
 .offbtnsubmit {
-    width:278px;
-    height: 44px;
+    width:25%;
+    height: 16%;
     font-size: 16px;
     color: #fff;
-    background-color: rgb(138,43,255);
+    background-color: rgb(27, 27, 27);
     cursor: pointer;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: 8px;
 } 
 .offIblemail, .offlblpass {
     color: rgb(58, 58, 58);
@@ -503,10 +569,10 @@ body {
 }
 .zohobtnsubmit {
     width:278px;
-    height: 44px;
+    height: 37px;
     font-size: 16px;
     color: #fff;
-    background-color: rgb(41, 133, 253);
+    background-color: rgb(36, 91, 164);
     cursor: pointer;
     border: none;
     border-radius: 5px;
@@ -539,11 +605,11 @@ body {
     margin-left: 0px;
 }
 .zohouser {
-    width: 100px;
-    height: 42px;
+    width: 70%;
+    height: 50%;
     overflow: hidden;
-    top: calc(110px/3);
-    left: calc(12% - 5px);
+    top: calc(10%/3);
+    left: calc(18% - 5px);
     position: absolute;
     margin-left: 0px;
 }
@@ -563,35 +629,135 @@ body {
 .zohotxtemail, .zohotxtpass {
     border:  1px solid rgb(177, 177, 177);
     outline: none;
-    height: 40px;
+    height: 35px;
     color: #000000;
-    font-size: 17px;
+    font-size: 15px;
     width: 100%;
     margin-bottom:10px;
-    border-radius: 5px;
-    background-color: rgb(231, 230, 230);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
 }
-.contentwrapper{
+.didlogin {
     position: absolute;
-    top: 5%;
-    left: 38%;
-    width: 400px;
-    height: 45px;
-    background-color: rgb(192, 62, 62);
-    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 360px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    border-radius: 1px;
+}
+.diduser {
+    width: 110px;
+    height: 27px;
+    overflow: hidden;
+    top: calc(10%/1);
+    left: calc(19% - 50px);
+    position: absolute;
+    margin-left: 0px;
+}
+.didIblemail1{
+    color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.didIblemail2{
+    color: #0067b8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+.didproemail, .didpropass {
     border: none;
-    
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+    height: 10%;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom:20px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
 }
-.Iblcontentwrapper{
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    font-size: 14px;
+.didbtnsubmit {
+    width:27%;
+    height: 10%;
+    font-size: 16px;
     color: #fff;
+    background-color: #0067b8;;
+    cursor: pointer;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 64%;
+    top: 85%;
+} 
+.aollogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 550px;
+    padding: 100px 40px;
+    box-sizing: border-box;
+    background: rgb(255 255 255);
+    border-radius: 2px;
+    outline: none;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
 }
-.llner {
-    margin-top: 2.5%;
-    margin-left: 2%;
+.aoluser {
+    width: 45%;
+    height: 28%;
+    overflow: hidden;
+    top: calc(-7%/3);
+    left: calc(30% - 5px);
+    position: absolute;
+    margin-left: 0px;
+}
+.aolIblemail{
+    color: #26282a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    position: absolute;
+    top: calc(70%/3);
+    left: calc(40% - 5px);
+}
+.aoltxtemail, .aoltxtpass {
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    outline: none;
+    height: 35px;
+    color: #000000;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom:10px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+.aolbtnsubmit {
+    width:278px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #39f;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+} 
+.pic1{
+    position: absolute;
+    top: calc(-1%/3);
+    left: calc(-3% - 2px);
+    width:103%;
+    height: 100%;
+}
+.pic2{
+    position: absolute;
+    top: calc(-1%/3);
+    left: calc(45% - 2px);
+    width:50%;
+    height: 100%;
 }
 @media only screen and (max-width: 600px) {
     .contentwrapper{

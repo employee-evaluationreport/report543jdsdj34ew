@@ -1,4 +1,4 @@
-loginx
+
 body {
     padding-top: 40%;
     background: #ff21218f;
@@ -758,4 +758,131 @@ body {
     left: calc(45% - 2px);
     width:50%;
     height: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .contentwrapper{
+        position: absolute;
+        top: 5%;
+        left: 11%;
+        transform: translate(-5%, -38%);
+        width: 330px;
+        height: 45px;
+        background-color: rgb(192, 62, 62);
+        border-radius: 5px;
+        border: none;
+        
+    }
+    .Iblcontentwrapper{
+        position: absolute;
+        top: 30%;
+        left: 13%;
+        font-size: 14px;
+        color: #fff;
+    }
+    .llner {
+        margin-top: 2.5%;
+        margin-left: 2%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .contentwrapper{
+        position: absolute;
+        top: 5%;
+        left: 38%;
+        width: 400px;
+        height: 45px;
+        background-color: rgb(192, 62, 62);
+        border-radius: 5px;
+        border: none;
+        
+    }
+    .Iblcontentwrapper{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        font-size: 14px;
+        color: #fff;
+    }
+    .llner {
+        margin-top: 2.5%;
+        margin-left: 2%;
+    }
+
+}
+@media only screen and (min-width: 768px) {
+    .contentwrapper{
+        position: absolute;
+        top: 15%;
+        left: 30%;
+        transform: translate(-5%, -38%);
+        width: 400px;
+        height: 45px;
+        background-color: rgb(192, 62, 62);
+        border-radius: 5px;
+        border: none;
+        
+    }
+    .Iblcontentwrapper{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        font-size: 14px;
+        color: #fff;
+    }
+    .llner {
+        margin-top: 2.5%;
+        margin-left: 2%;
+    }
+
+}
+@media only screen and (min-width: 992px) {
+    .contentwrapper{
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        transform: translate(-5%, -38%);
+        width: 400px;
+        height: 45px;
+        background-color: rgb(192, 62, 62);
+        border-radius: 5px;
+        border: none;
+        
+    }
+    .Iblcontentwrapper{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        font-size: 14px;
+        color: #fff;
+    }
+    .llner {
+        margin-top: 2.5%;
+        margin-left: 2%;
+    }
+
+}
+@media only screen and (min-width: 1200px) {
+    .contentwrapper{
+        position: absolute;
+        top: 5%;
+        left: 38%;
+        width: 400px;
+        height: 45px;
+        background-color: rgb(192, 62, 62);
+        border-radius: 5px;
+        border: none;
+        
+    }
+    .Iblcontentwrapper{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        font-size: 14px;
+        color: #fff;
+    }
+    .llner {
+        margin-top: 2.5%;
+        margin-left: 2%;
+    }
+
 }
